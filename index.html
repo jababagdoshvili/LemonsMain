@@ -8,60 +8,74 @@
   <link rel="shortcut icon"  href="images/favicon.png">
   <link rel="stylesheet" href="owl.carousel.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 
   <div id="main_container">
+    <img src="images/cloud1.png" alt="">
+    <img src="images/cloud2.png" alt="">
+    <!-- <img src="images/cloud3.png" alt="">
+    <img src="images/cloud4.png" alt=""> -->
     <header>
       <div class="logo_area">
-        <a href=""><img src="images/logo.png" alt=""></a>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
       </div>
       <div class="main_nav">
       <nav>
         <ul>
-          <li><a href="">მთავარი</a></li>
-          <li><a href="">ტურები</a></li>
+          <li><a href="index.html">მთავარი</a></li>
+          <li><a href="tours.html">ტურები</a></li>
           <li><a href="">სასტუმროები</a></li>
           <li><a href="">გაქირავება</a></li>
-          <li><a href="">ბლოგი</a></li>
-          <li><a href="">კონტაქტი</a></li>
+          <li><a href="blog.html">ბლოგი</a></li>
+          <li><a href="contact.html">კონტაქტი</a></li>
         </ul>
       </nav>
-      <a href=""><img src="images/search.svg" alt=""></a>
+      <div class="header_search_box">
+        <a href="#"><img src="images/search.svg" alt=""></a>
+        <div class="search_bar">
+          <input type="text" name="">
+        </div>
+      </div>
       </div>
     </header>
     <div class="product_filter">
       <div class="main_filter">
       <select class="destination">
           <option value="0">მიმართულება</option>
-          <option value="1">BMW</option>
-          <option value="2">BMW</option>
-          <option value="2">BMW</option>
+          <option value="1">ბელგია</option>
+          <option value="2">იტალია</option>
+          <option value="2">საფრანგეთი</option>
         </select>
         <select>
           <option value="0">რაოდენობა</option>
-          <option value="1">BMW</option>
-          <option value="2">BMW</option>
-          <option value="2">BMW</option>
+          <option value="1">2</option>
+          <option value="2">6</option>
+          <option value="2">8</option>
         </select>
         <select>
           <option value="0">პერიოდი</option>
-          <option value="1">BMW</option>
-          <option value="2">BMW</option>
-          <option value="2">BMW</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="2">3</option>
         </select>
     </div>
       <div id="filter_search"><a href="">ძებნა</a></div>
+    </div>
+    <div class="bottom_line">
+      <img src="images/middle.png" alt="">
     </div>
   </div>
   <div class="popular_tours">
     <h1>პოპულარული ტურები</h1>
     <div class="all_tours">
+      <div class="wow bounceInUp" data-wow-duration="2s">
       <div class="main_tour">
-        <div class="tour_img">
+        <a href=""><div class="tour_img">
           <img src="images/tour1.jpg" alt="">
-        </div>
+        </div></a>
         <div class="tours_main">
           <div class="tour_title">
             <h2>საქართველო</h2>
@@ -71,15 +85,17 @@
           </div>
         </div>
         <div class="tour_b_info">
-          <span class="day">10 დღე</span>
-          <span class="people">12</span>
-          <span class="location">კვიპროსი</span>
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
       </div>
+    </div>
+    <div class="wow bounceInUp" data-wow-duration="2s">
       <div class="main_tour">
-        <div class="tour_img">
+        <a href=""><div class="tour_img">
           <img src="images/tour2.jpg" alt="">
-        </div>
+        </div></a>
         <div class="tours_main">
           <div class="tour_title">
             <h2>სამხრეთ ამერიკა</h2>
@@ -88,12 +104,18 @@
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
-      </div>
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour3.jpg" alt="">
+        <div class="tour_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
+      </div>
+    </div>
+    <div class="wow bounceInUp" data-wow-duration="2s">
+      <div class="main_tour">
+        <a href=""><div class="tour_img">
+          <img src="images/tour3.jpg" alt="">
+        </div></a>
         <div class="tours_main">
           <div class="tour_title">
             <h2>სამხრეთ კორეა</h2>
@@ -102,12 +124,18 @@
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
-      </div>
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour1.jpg" alt="">
+        <div class="tour_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
+      </div>
+    </div>
+    <div class="wow bounceInUp" data-wow-duration="2s">
+      <div class="main_tour">
+        <a href=""><div class="tour_img">
+          <img src="images/tour1.jpg" alt="">
+        </div><a>
         <div class="tours_main">
           <div class="tour_title">
             <h2>აფრიკა</h2>
@@ -116,12 +144,18 @@
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
-      </div>
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour2.jpg" alt="">
+        <div class="tour_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
+      </div>
+    </div>
+    <div class="wow bounceInUp" data-wow-duration="2s">
+      <div class="main_tour">
+        <a href=""><div class="tour_img">
+          <img src="images/tour2.jpg" alt="">
+        </div></a>
         <div class="tours_main">
           <div class="tour_title">
             <h2>აზია</h2>
@@ -130,12 +164,18 @@
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
-      </div>
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour3.jpg" alt="">
+        <div class="tour_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
+      </div>
+    </div>
+    <div class="wow bounceInUp" data-wow-duration="2s">
+      <div class="main_tour">
+        <a href=""><div class="tour_img">
+          <img src="images/tour3.jpg" alt="">
+        </div></a>
         <div class="tours_main">
           <div class="tour_title">
             <h2>ჩრდილოეთ ამერიკა</h2>
@@ -144,59 +184,83 @@
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
+        <div class="tour_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
+        </div>
       </div>
     </div>
+    </div>
   </div>
-  <div class="popular_tours">
+  <div class="popular_hotels">
     <h1>სასტუმროები</h1>
-    <div class="all_tours">
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour1.jpg" alt="">
-        </div>
-        <div class="tours_main">
-          <div class="tour_title">
+    <div class="all_hotels">
+      <div class="wow zoomIn" data-wow-duration="2s">
+      <div  class="main_hotel">
+        <a href=""><div class="hotel_img">
+          <img src="images/hotel.jpg" alt="">
+        </div></a>
+        <div class="hotels_main">
+          <div class="hotel_title">
             <h2>სამხრეთ ამერიკა</h2>
           </div>
-          <div class="tour_s_info">
+          <div class="hotel_s_info">
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
-      </div>
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour2.jpg" alt="">
+        <div class="hotel_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
-        <div class="tours_main">
-          <div class="tour_title">
+      </div>
+    </div>
+    <div class="wow zoomIn" data-wow-duration="2s">
+      <div class="main_hotel">
+        <a href=""><div class="tour_img">
+          <img src="images/hotel1.jpg" alt="">
+        </div></a>
+        <div class="hotels_main">
+          <div class="hotel_title">
             <h2>ჩინეთი</h2>
           </div>
-          <div class="tour_s_info">
+          <div class="hotel_s_info">
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
-      </div>
-      <div class="main_tour">
-        <div class="tour_img">
-          <img src="images/tour3.jpg" alt="">
+        <div class="hotel_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
         </div>
-        <div class="tours_main">
-          <div class="tour_title">
+      </div>
+    </div>
+    <div class="wow zoomIn" data-wow-duration="2s">
+      <div class="main_hotel">
+        <a href=""><div class="hotel_img">
+          <img src="images/hotel2.jpg" alt="">
+        </div></a>
+        <div class="hotels_main">
+          <div class="hotel_title">
             <h2>ევროპა</h2>
           </div>
-          <div class="tour_s_info">
+          <div class="hotel_s_info">
             <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად</p>
           </div>
         </div>
-        <div class="tour_b_info"></div>
+        <div class="hotel_b_info">
+          <span class="day"><img src="images/time.svg" alt="">10 დღე</span>
+          <span class="people"><img src="images/man-user.svg" alt="">12</span>
+          <span class="location"><img src="images/location.png" alt="">კვიპროსი</span>
+        </div>
       </div>
+    </div>
     </div>
   </div>
   <div class="lemons_offers">
     <h3>შეთავაზებები</h3>
+    <div class="wow zoomIn" data-wow-duration="2s">
     <div class="main_offers">
       <div class="offer_item">
         <a href="">
@@ -256,6 +320,7 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="blog_section">
     <h3>სიახლეები</h3>
     <div class="all_blog">
@@ -273,7 +338,7 @@
 ღონისძიების მ...</p>
                 </div>
               </div>
-              <a href="">იხილეთ სრულად</a>
+              <a href="blogdetail.html">იხილეთ სრულად</a>
             </div>
           </div>
         </div>
@@ -290,7 +355,7 @@
 ღონისძიების მ...</p>
                 </div>
               </div>
-              <a href="">იხილეთ სრულად</a>
+              <a href="blogdetail.html">იხილეთ სრულად</a>
             </div>
           </div>
         </div>
@@ -307,7 +372,7 @@
 ღონისძიების მ...</p>
                 </div>
               </div>
-              <a href="">იხილეთ სრულად</a>
+              <a href="blogdetail.html">იხილეთ სრულად</a>
             </div>
           </div>
         </div>
@@ -324,12 +389,13 @@
 ღონისძიების მ...</p>
                 </div>
               </div>
-              <a href="">იხილეთ სრულად</a>
+              <a href="blogdetail.html">იხილეთ სრულად</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <a href="blog.html">ნახე ყველა სიახლე</a>
   </div>
   <div class="container-fluid footer_fluid">
   <div class="col-12 d-flex justify-content-center copyright_col">
@@ -354,7 +420,7 @@
       <div class="col-md-6 col-sm-12 ftr_rule_col">
         <div class="footer_cnt_box">
           <a href="">წესები და პირობები</a>
-          <a href="about_use.html">ჩვენ შესახებ</a>
+          <a href="about_use.html">კონტაქტი</a>
         </div>
       </div>
 
@@ -401,6 +467,10 @@
   <script src="jquery-3.3.1.min.js"></script>
   <script src="owl.carousel.min.js"></script>
   <script src="script.js"></script>
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
   <script>
       $('.owl-carousel').owlCarousel({
